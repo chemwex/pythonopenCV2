@@ -7,7 +7,7 @@ Created on Wed Jul 17 12:30:40 2024
 
 import cv2
 
-#cv2.imread('cat.jfif',0)
+#cv2.imread('lena.jpg',0)
 imgray = cv2.imread('lena.jpg',0) #read image color in grayscale.
 print(imgray)
 imgcolor = cv2.imread('lena.jpg',1) #read image file in color.
