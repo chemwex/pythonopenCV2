@@ -15,8 +15,8 @@ print(imgcolor)
 imgasis = cv2.imread('lena.jpg',-1) #read image file as is.
 print(imgasis)
 
-cv2.imshow('imagegray',imgray)   #show the image in a window whose title is image
-cv2.imshow('imagecolor',imgcolor)   #show the image in a window whose title is image
-cv2.imshow('imageasis',imgasis)   #show the image in a window whose title is image   
+cv2.imshow('imagegray',imgray)   #show the image in a window whose title is imagegray
+cv2.imshow('imagecolor',imgcolor)   #show the image in a window whose title is imagecolor
+cv2.imshow('imageasis',imgasis)   #show the image in a window whose title is imageasis   
 cv2.waitKey(5000)         #show the window for 5 seconds on the screen
 cv2.destroyAllWindows()   #destroy the created window
